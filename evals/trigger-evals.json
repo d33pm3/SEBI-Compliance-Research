@@ -1,0 +1,18 @@
+[
+  {"query": "we just got listed on NSE main board last month — what are ALL the filings we now have to do and by when? need a proper register for the CS team", "should_trigger": true},
+  {"query": "need a sebi compliance calendar for FY27 for a top 250 company with equity and some listed NCDs; research the latest requirements and build it out", "should_trigger": true},
+  {"query": "whats the current timeline for disclosing board meeting outcomes to the exchanges? i remember it changed recently, need the latest rule not the old one", "should_trigger": true},
+  {"query": "map every disclosure obligation under SEBI PIT regulations for our designated persons — my colleague says initial disclosure is 30 days but that sounds wrong", "should_trigger": true},
+  {"query": "Do a gap analysis of our compliance tracker against whatever SEBI changed in the last year — amendments, new circulars, the integrated filing thing, all of it.", "should_trigger": true},
+  {"query": "which BRSR obligations apply to us? we're around rank 400 by market cap and our auditors are asking about assurance requirements", "should_trigger": true},
+  {"query": "need the voluntary delisting process mapped end to end — timelines, approvals, RBB, everything current", "should_trigger": true},
+  {"query": "compare NSE vs BSE compliance calendar requirements for equity listed cos — are there filings one exchange wants that the other doesn't?", "should_trigger": true},
+  {"query": "I've uploaded the SEBI LODR consolidated PDF — extract every compliance obligation from it into a 12-column excel register", "should_trigger": false},
+  {"query": "here's a sebi circular pdf my boss sent, pull the obligations out into a checklist with clause refs", "should_trigger": false},
+  {"query": "analyse this SAT judgment on a Reg 30 disclosure lapse — what did the tribunal hold and what's the precedent value?", "should_trigger": false},
+  {"query": "draft a board note explaining why we missed the Reg 33 filing deadline last quarter and the remediation plan", "should_trigger": false},
+  {"query": "what does 'material subsidiary' mean under LODR? one line answer", "should_trigger": false},
+  {"query": "build a financial model for this listed NBFC from their annual report — I care about NIM and the debt schedule", "should_trigger": false},
+  {"query": "convert our compliance register xlsx into a powerpoint for the audit committee", "should_trigger": false},
+  {"query": "research US SEC 10-K filing requirements for an issuer cross-listing in New York", "should_trigger": false}
+]

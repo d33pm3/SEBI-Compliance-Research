@@ -1,0 +1,37 @@
+{
+  "skill_name": "sebi-india-compliance-research",
+  "version": "2.0.0",
+  "note": "Canonical skill-creator schema. Output evals verify the research-execution contract. All require live web access.",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Build a comprehensive SEBI compliance filing register for an NSE+BSE equity-listed company in the Top 500 by market cap. Excel format, everything a CS would need for FY26-27.",
+      "expected_output": "Phase 1 source version gate completed first with live-fetch timestamps; XLSX with the 12-column schema, 85+ rows across 19 MECE categories; every Source URL from a primary domain and fetched this session (Gate 6); Gate 3 tripwires verified against fetched primary text; Gate 7 calibrated delivery summary distinguishing FETCHED-verified from UNVERIFIED rows.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "What are all the insider trading (PIT) disclosure obligations for designated persons and the company? I keep seeing conflicting timelines online for the initial disclosure.",
+      "expected_output": "PIT-only instantiation per Part 2; primary PIT regulation text fetched live and quoted as the authority; the 7-day Reg 7(1) initial disclosure confirmed from the fetched text (not from the skill's stored value); conflicting blog claims explicitly resolved in favour of Tier 1; timelines expressed in trading days.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "A debt-only listed NBFC has NCDs listed on NSE. Map its complete compliance calendar - SEBI plus exchange requirements.",
+      "expected_output": "Entity scope fixed to debt-only listing; NCS 2021 + LODR Reg 52-60 anchored; NSE Debt calendar read as an independent Tier 2 pass and reconciled line-by-line; CP and NCRPS tripwires from Tier A checked; applicability column correctly restricted to debt-listed obligations.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Update our existing SEBI register (attached as xlsx) against whatever changed in the last 12 months - amendments, new circulars, anything.",
+      "expected_output": "Phase 1.4 amendment sweep run against the current consolidated version date; a Gap Analysis sheet produced showing added/changed/removed obligations with the amending instrument cited per row; version-conflict rule applied (newer amendment governs, both citations annotated).",
+      "files": ["existing_sebi_register.xlsx"]
+    },
+    {
+      "id": 5,
+      "prompt": "sebi site seems down for me today but I need the LODR board meeting intimation timelines for a memo in an hour - whatever you can verify",
+      "expected_output": "Bounded retry per 0.3 (alternate tool, then fresh search); values that could not be read from a live primary fetch are labeled UNVERIFIED with the exact URL the user should fetch; no Tier 3 source silently substituted as primary; the dual 30-min/3-hour board-meeting rule stated with both branches and its verification status.",
+      "files": []
+    }
+  ]
+}
