@@ -11,11 +11,11 @@ description: >
   listed companies, or building a compliance register from live web research on any
   Indian securities-law domain. Do NOT use when the task is limited to extracting
   obligations from an uploaded document or analysing a court/tribunal judgment.
-license: Proprietary - de-risk GRC & Strategy Consulting
+license: Proprietary - DK Mendiratta
 metadata:
   version: "2.0.0"
   created: "2026-03-29"
-  author: "de-risk GRC & Strategy Consulting"
+  author: "DK Mendiratta"
   tags: "sebi, lodr, listed-companies, india-compliance, regulatory-mapping, nse-bse, corporate-governance, grc"
 ---
 
@@ -71,7 +71,7 @@ START HERE  -> SKILL.md (this file): Parts 0-2 + Phases 1-6
 AT PHASE 1  -> view references/canonical_sources.md   (seed URLs + retrieval tiers)
 AT PHASE 3  -> view references/mece_checklist.md      (19 categories + instrument list)
 AT PHASE 4  -> view references/known_omissions.md     (Tier A/B omission tripwires)
-AT DELIVERY -> view references/output_standards.md    (de-risk locked formats + assembly)
+AT DELIVERY -> view references/output_standards.md    (locked output formats + assembly)
 ```
 
 ---
