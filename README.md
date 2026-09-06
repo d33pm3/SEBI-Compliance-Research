@@ -1,8 +1,5 @@
 # SEBI Compliance Research
 
-**Skill version:** 2.0.0  
-**Author:** DK Mendiratta  
-**GitHub:** [d33pm3/SEBI-Compliance-Research](https://github.com/d33pm3/SEBI-Compliance-Research)
 
 Source-first research skill for mapping SEBI, NSE/BSE, and selected Companies Act obligations of Indian listed companies. Method, coverage controls, and evals only — no registers, no client data.
 
